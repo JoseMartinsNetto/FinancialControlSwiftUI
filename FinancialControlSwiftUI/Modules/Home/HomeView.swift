@@ -9,7 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                VStack {
+                    HStack {
+                        Text("Seu saldo é: R$100,00")
+                        Spacer()
+                    }
+                }.padding()
+            }
+            .navigationTitle(Text("Olá user!"))
+            .background(Color(.init(white: 0, alpha: 0.05)).ignoresSafeArea())
+        }
     }
 }
 
