@@ -52,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				7FD611DF29B163050016E2DF /* App */,
-				7FA22F3829B018080059CCDB /* FinancialControlSwiftUIApp.swift */,
 				7FA22F3A29B018080059CCDB /* ContentView.swift */,
 				7FA22F3C29B0180A0059CCDB /* Assets.xcassets */,
 				7FA22F3E29B0180A0059CCDB /* Preview Content */,
@@ -71,6 +70,7 @@
 		7FD611DF29B163050016E2DF /* App */ = {
 			isa = PBXGroup;
 			children = (
+				7FA22F3829B018080059CCDB /* FinancialControlSwiftUIApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
