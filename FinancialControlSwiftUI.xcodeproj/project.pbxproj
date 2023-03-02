@@ -50,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				7FD611DF29B163050016E2DF /* App */,
+				7FD611E029B163C30016E2DF /* Modules */,
 			);
 			path = FinancialControlSwiftUI;
 			sourceTree = "<group>";
@@ -70,6 +71,21 @@
 				7FA22F3E29B0180A0059CCDB /* Preview Content */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		7FD611E029B163C30016E2DF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7FD611E129B163D00016E2DF /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7FD611E129B163D00016E2DF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
