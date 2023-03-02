@@ -10,6 +10,7 @@
 		7FA22F3929B018080059CCDB /* FinancialControlSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA22F3829B018080059CCDB /* FinancialControlSwiftUIApp.swift */; };
 		7FA22F3D29B0180A0059CCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA22F3C29B0180A0059CCDB /* Assets.xcassets */; };
 		7FA22F4029B0180A0059CCDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA22F3F29B0180A0059CCDB /* Preview Assets.xcassets */; };
+		7FD611E329B164F80016E2DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD611E229B164F80016E2DF /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		7FA22F3829B018080059CCDB /* FinancialControlSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialControlSwiftUIApp.swift; sourceTree = "<group>"; };
 		7FA22F3C29B0180A0059CCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA22F3F29B0180A0059CCDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FD611E229B164F80016E2DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		7FD611E129B163D00016E2DF /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7FD611E229B164F80016E2DF /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA22F3929B018080059CCDB /* FinancialControlSwiftUIApp.swift in Sources */,
+				7FD611E329B164F80016E2DF /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
